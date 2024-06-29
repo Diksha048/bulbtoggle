@@ -1,5 +1,16 @@
-body{
-    background-color: #d1d1e0;
+.border{
+  height: 500px;
+  width: 600px;
+  margin: 6% auto;
+  text-align: center;
+  padding-top: 40px;
+  background-color: #a3a3c2;
+  border: 3px solid black ;
+  border-radius: 8%;
+}
+.h1{
+  color: #153448;
+  background-color: #a3a3c2;
 }
 .bulb{
     display: block;
@@ -10,17 +21,17 @@ body{
 }
 .button {
   border-radius: 4px;
-  background-color: #336699;
+  background-color: #31363F;
   border: none;
-  color:  #d9e6f2;
+  color:  #EEEEEE;
   text-align: center;
   font-size: 25px;
   padding: 15px;
   width: 150px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 50px;
-  margin-left: 45%;
+  margin: 80px;
+  margin-left: 10%;
 }
 
 .button span {
